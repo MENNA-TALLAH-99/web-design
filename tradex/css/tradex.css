@@ -1,0 +1,407 @@
+body{
+    overflow-x: hidden;
+}
+
+
+
+.carousel-item img{
+height: 600px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+.btn-custom:after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+    transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -1;
+}
+.shine{
+    overflow: hidden;
+}
+.shine:before{
+    content: " ";
+    display: block;
+    position: absolute;
+    background-color: #ffffffa5;
+    filter: blur(1px);
+    width:20px;
+    height: 100px;
+
+    opacity: 0.9;
+    transform: rotate(20deg) translateX(-34px);
+    bottom:-30% ;
+    transition: ease 0.3s;
+    
+}
+.shine:hover:before{
+    transform: rotate(20deg) translateX(140px);
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+background-color: aliceblue;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+}
+.carousel-indicators{
+    left: auto;
+    bottom: auto;
+    margin-right: 0;
+    rotate: 90deg;
+    top: 50%;
+}
+.btn:hover{
+    border: none;
+}
+
+.hr1{
+    width: 30px;
+}
+.hr2{
+    width: 70px;
+}
+.headline{
+    width: 25%;
+    margin-left: 37%;
+}
+hr{
+    margin: 4px;
+}
+
+.hrline{
+margin-top: 6%;
+}
+.sectionover{
+    width: 30%;
+    left: 25%;
+    top: 15%;
+}
+
+.hr1{
+    width: 20%;
+  }
+  .hr2{
+    width: 30%;
+  }
+  .sec1-about img {
+    width: 60%;
+    margin-left: 35%;
+    height: 450px;
+  }
+  p{
+    margin-bottom: 0;
+  }
+  
+  .row1about{
+  width: 380px;
+  }
+  .cardrow{
+    top: 50%;
+    left: 15%;
+  }
+  
+ .row1about:hover .icons , .row1about:hover h5{
+    color:#0d6efd;
+ }
+
+.d-icon{
+        vertical-align: middle;
+        height: 60px;
+        width: 100px;
+        box-shadow: 0px 0px 50px 0px rgba(2, 2, 2, 0.25);
+        color: #0c65ed;
+        font-size: 40px;
+        padding-top: 9px;
+        text-align: center;
+        border-radius: 5px;
+        margin-right: 25px;
+        background-color: #fff;
+    }
+
+
+    .pcards{
+        width: 60%;
+        text-align: center;
+        margin-left: 22%;
+        color: white;
+    }
+
+    .cards{
+        position: relative;
+     background-color: black;
+     height: 250px;
+     border: 1px solid white;
+     color: white;
+     overflow: hidden
+    }
+
+    .hidden{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        top: 100%;
+        background-color: rgb(254, 252, 251);
+        color: black;
+        transition: 1s;
+        padding: 15%;
+   
+    }
+    
+    .cards:hover .hidden{
+       top: 0; 
+       
+    }
+
+    .section3{
+        background-image: url(../images/service-bg.jpg);
+        background-size: 100% 100%;
+    }
+
+ul li{
+    list-style: none;
+}
+
+.our-btn{
+    margin-top: 30px;
+position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: #1a1a1a;
+    transition: all .3s linear;
+}
+.our-btn span{
+    padding: 0 20px;
+}
+
+.our-btn:hover, span:hover{
+    color: #0d6efd !important;
+}
+.h-img{
+width: 80%;
+margin-left: 15px;
+}
+
+.card-wrapper {
+    width:360px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.section7{
+    background-image: url(../images/ecommerce-cover-2.jpg);
+   background-size: 100% 100%;
+   height: 600px;
+}
+
+.design{
+    position: absolute;
+    margin: 300px 30px;
+    background-color: #0d6dfd90;
+    width: 20%;
+    color: aliceblue;
+    padding: 5px;
+    visibility: hidden;
+    transition: linear 0.3s ease;
+}
+
+.card-wrapper:hover .design {
+    visibility: visible;
+}
+.image-wrapper:hover{
+    box-shadow:0px 0px 40px 0px rgba(2, 2, 2, 0.188) ;
+}
+.hiddendcard{
+    top: 83%;
+    transition: 1s;
+}
+
+.cardimg:hover .hiddendcard{
+    top: 56%;
+}
+
+.div-hr{
+    width: 25%;
+    margin-left: 38%;
+   
+}
+.eml{
+    padding: 20px;
+}
+
+.client-item {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+ .div-i{
+   
+    width: 60px;
+    text-align: center;
+    background-color: #0c65ed;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0 7px;
+    color: #fff;
+}
+.div-i1{ 
+    width: 60px;
+    text-align: center;
+    background-color: #0c65ed;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0 7px;
+    color: #fff;
+}
+
+.blog-icons{
+    width: 70px;
+}
+.mergebtn {
+    overflow: hidden;
+    margin-top: 4%;
+  }
+  .progress{
+    height: 3px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .iconscard{
+    width: 100%;
+    max-width: 50px;
+  }
+  .blog-img{
+    overflow: hidden;
+  }
+  .blog-img img{
+    transition: 1s;
+  }
+
+  .cardimghover:hover img{
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  .cardimghover:hover .iconscard{
+    background-color: #0c65ed !important;
+  }
+
+  .cardimghover:hover .progress-bar{
+    width: 100% !important;
+  }
+  .headsection{
+    margin-left: 30%;
+  }
+  .cardsclients{
+    margin-top: 10% !important;
+  }
+
+  .imgeshadow{
+    filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.5));
+  }
+
+
+
+.btn-shine{
+    padding:5px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: #fff;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+
+.i-phone{
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+
+.cardsmeet{
+    height: 124px;
+  }
+  
+  .font-size-60{
+    font-size: 85px;
+      margin-top: -18%;
+  }
+  .width-18{
+    width: 18%;
+  }
+   
+.footer-title{
+  margin-top: 60px;
+}
+
+  .card{
+    --bs-card-bg: none !important;
+  }
+ 
+  .hr-margin{
+    margin: 30px 0;
+  }
+
+.Popular{
+  border-radius: 20px;
+  padding: 5px;
+}
+  .card-title{
+    font-size: 15px;
+  }
+
+  
+  .nav-link:hover{
+    color: #0c65ed;
+  }
+
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+
+  #arrow-icon{
+    border-radius: 50%;
+    padding: 5px;
+        text-align: center;
+        display:none;
+  }
+
+.foot{
+  margin: 10px 0;
+}
+  .section4{
+    background-image: url(../images/WhatsApp\ Image\ 2024-08-22\ at\ 13.22.21_649a932f.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+}
+.link {
+  text-align: center;
+  margin-top: 10%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.owl-nav{
+  margin-left: 43%;
+}
+
+.foot-phone{
+  margin-left: 8%;
+}
+
+
