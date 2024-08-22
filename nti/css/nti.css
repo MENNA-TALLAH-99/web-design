@@ -1,0 +1,68 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    width: 24%;
+    border-style: solid;
+    padding: 0;
+    margin-right: 8%;
+    display: inline-block;
+    background-color: #f8d68dfd;
+}
+.nav{
+    padding: 4%;
+}
+.navpase{
+    display: inline-block;
+    margin-right:3% ;
+}
+.img
+{
+    width: 100%;
+    position: relative;
+   
+}
+.img img{
+    width: 100%;
+    display: block;
+}
+.card-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    top: 0;
+    height: 100%;
+    display: none;
+}
+.img:hover .card-overlay{
+  background-color: rgba(0, 0, 0, 0.297);
+  display: block;
+}
+.overlay{
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+    color: rgb(244, 224, 188);
+}
+.img2{
+    position: absolute;
+    top: 70%;
+    left: 64%;
+    width: 19%;
+}
+.img2 img{
+    width: 166%;
+    border-radius: 47%;
+}
+.style hr{
+    width: 25%;
+    border-style: double;
+    color: orange;
+    margin: 3% 25px;
+}
+.style h2 ,p{
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
