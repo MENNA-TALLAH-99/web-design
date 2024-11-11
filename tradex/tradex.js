@@ -43,8 +43,8 @@ const icon = document.getElementById('arrow-icon');
                   clearInterval(interval) 
                   valid1 = false
               }
-              i+=10
-          }, 20)
+              i+=30
+          }, 50)
           }
       }  
       });
@@ -64,8 +64,8 @@ const icon = document.getElementById('arrow-icon');
                   clearInterval(interval) 
                   valid2 = false
               }
-              i+=50
-          }, 20)
+              i+=40
+          }, 30)
           }
       }  
       });
@@ -76,7 +76,7 @@ const icon = document.getElementById('arrow-icon');
       window.addEventListener('scroll', function() {
         var valid3 = true
         var i = 0
-        if ( window.scrollY > 1000) { 
+        if ( window.scrollY > 900) { 
           if(valid3){
             var  interval = setInterval(() => {
               count3.innerText = i
@@ -85,7 +85,7 @@ const icon = document.getElementById('arrow-icon');
                   valid3 = false
               }
               i+=1
-          }, 5)
+          }, 60)
           }
       }  
       });
@@ -95,7 +95,8 @@ const icon = document.getElementById('arrow-icon');
           items : 2,
           margin :20,
           nav : true ,
-          navText: ['<i class="fa-solid fa-arrow-left ms-10 text-center mt-5  rounded-start-pill px-4 m-0 me-5 border border-1 border-primary py-2 bg-primary text-white"></i>', '<i class="fa-solid fa-arrow-right rounded-end-pill px-4 py-2 m-0 border border-1 border-primary bg-primary text-white"></i>'],
+          navText: ['<i class="fa-solid fa-arrow-left rounded-start-pill px-4 py-2 m-2 border border-1 border-primary bg-primary text-white"></i>',
+                    '<i class="fa-solid fa-arrow-right rounded-end-pill px-4 py-2 m-2 border border-1 border-primary bg-primary text-white"></i>'],
         }
         );
       });
@@ -162,4 +163,3 @@ function checkSubject(input) {
         return true; 
     }
 }
-

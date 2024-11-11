@@ -2,14 +2,47 @@ body{
     overflow-x: hidden;
 }
 
-
-
 .carousel-item img{
 height: 600px;
 }
 
 h2{
     font-size: 60px;
+}
+.navbar-brand{
+  margin-left: 60px;
+}
+#navbarNavDropdown{
+  margin-right: 4%;
+}
+button, .btb2{
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+ .btb1 { 
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+
+button:hover::before, .btn:hover::before {
+  transform: rotate(20deg) translateX(140px);
+}
+
+button:hover, .btn:hover {
+  background-color: #0056b3; 
 }
 
 .btn-custom:after {
@@ -38,9 +71,8 @@ h2{
     filter: blur(1px);
     width:20px;
     height: 100px;
-
     opacity: 0.9;
-    transform: rotate(20deg) translateX(-34px);
+    transform: rotate(15deg) translateX(-40px);
     bottom:-30% ;
     transition: ease 0.3s;
     
@@ -97,9 +129,13 @@ margin-top: 6%;
   }
   .sec1-about img {
     width: 60%;
-    margin-left: 35%;
+    margin-left: 50%;
     height: 450px;
   }
+  .sec2-about{
+    margin-left: 7%;
+  }
+
   p{
     margin-bottom: 0;
   }
@@ -109,7 +145,7 @@ margin-top: 6%;
   }
   .cardrow{
     top: 50%;
-    left: 15%;
+    left: 30%;
   }
   
  .row1about:hover .icons , .row1about:hover h5{
@@ -314,6 +350,7 @@ margin-left: 15px;
 
   .imgeshadow{
     filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.5));
+    margin-left: 80px;
   }
 
 
@@ -397,11 +434,21 @@ margin-left: 15px;
   background-color: rgba(0, 0, 0, 0.4);
 }
 .owl-nav{
-  margin-left: 43%;
+  margin-left: 44%;
 }
 
 .foot-phone{
   margin-left: 8%;
 }
 
+.margin{
+  margin-left: 15px;
+}
 
+.LatestBlog{
+background-color:  #f9f9f9;;
+}
+
+.sp-100{
+  padding-bottom: 30px;
+}
