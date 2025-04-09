@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Shop</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+<body>
+  <div class="header">
+    My Shop
+    <div class="cart-icon" onclick="toggleCart()">
+      <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="cart">
+    </div>
+  </div>
+
+  <div class="product-container" id="product-container"></div>
+
+  <div class="cart-sidebar" id="cart-sidebar">
+    <h3>My Items</h3>
+    <div id="cart-items"></div>
+    <div class="cart-footer">
+      <div class="total-row">
+        <span>Total:</span>
+        <span>$<span id="cart-total">0.00</span></span>
+      </div>
+      <div class="button-row">
+        <button class="close-btn" onclick="toggleCart()">Close</button>
+        <button class="confirm-btn" onclick="confirmOrder()">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="prompt" id="prompt">
+    Order Confirmed! Total: $<span id="prompt-total">0.00</span>
+  </div>
+
+  <script src="task.js"></script>
+</body>
+</html>
+
+
+
+
+
