@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>متجر السندويتشات</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1>🍔 متجر السندويتشات</h1>
+  </header>
+
+  <main class="main-container">
+    <!-- المنتجات في الناحية الشمال -->
+    <section class="product-list">
+      <input type="text" class="search-bar" placeholder="🔍 ابحث عن منتج..." id="search-bar" />
+      <h2>المنتجات</h2>
+      <div id="sandwiches-container" class="products"></div>
+      <div id="drinks-container" class="products"></div>
+    </section>
+
+    <!-- في اليمين: تفاصيل المنتج فوق - السلة تحت -->
+    <section class="right-side">
+      <div class="product-detail">
+        <h2>تفاصيل المنتج</h2>
+        <div id="product-detail-content">
+          <p>اختر منتجًا لرؤية التفاصيل.</p>
+        </div>
+      </div>
+
+      <div class="cart">
+        <h2>🛒 السلة</h2>
+        <ul id="cart-list"></ul>
+        <button id="checkout-btn">إتمام الشراء</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
