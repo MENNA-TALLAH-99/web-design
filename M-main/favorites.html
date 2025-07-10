@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Bar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="top-bar">
+        <div class="left">
+          <select>
+            <option>USD</option>
+          </select>
+          <select>
+            <option>English</option>
+          </select>
+        </div>
+
+        <div class="center">
+          <img src="image/847969.png" alt="Men Coupons Icon" />
+          <div class="text">
+            <span class="title">Weekly Men's Toiletries Coupons.</span>
+            <span>We extend exclusive discounts to our male clientele</span>
+          </div>
+        </div>
+
+        <div class="right">
+          <a href="#"><i class="fa-regular fa-user"></i> Sign in</a>
+          <a href="favorites.html" style="color: #fff"
+            ><i class="fa-regular fa-heart"></i> Favorites</a
+          >
+          <a href="#" class="cart-icon">
+            <i class="fa-solid fa-bag-shopping"></i> Cart
+            <span class="cart-badge">1</span>
+          </a>
+        </div>
+      </div>
+      <div class="cart">
+        <ul class="item-list">
+          <li>
+            <div class="placeholder"></div>
+            <div class="text">
+              <p class="name">mango</p>
+              <span class="price">$33</span>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder"></div>
+            <div class="text">
+              <p class="name">mango</p>
+              <span class="price">$33</span>
+            </div>
+          </li>
+          <li>
+            <div class="placeholder"></div>
+            <div class="text">
+              <p class="name">mango</p>
+              <span class="price">$33</span>
+            </div>
+          </li>
+        </ul>
+        <div class="total-section">
+          <p>Total</p>
+          <span class="total-price">$ 0</span>
+        </div>
+        <div class="control-scetion">
+          <button class="view-bag">View Bag</button>
+          <button class="check-out">CheckOut</button>
+        </div>
+      </div>
+      <section class="favorites-page"></section>
+    </main>
+    <script type="modules" src="js/favorites.js"></script>
+  </body>
+</html>

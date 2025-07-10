@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Bar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="top-bar">
+        <div class="left">
+          <select>
+            <option>USD</option>
+          </select>
+          <select>
+            <option>English</option>
+          </select>
+        </div>
+
+        <div class="center">
+          <img src="image/847969.png" alt="Men Coupons Icon" />
+          <div class="text">
+            <span class="title">Weekly Men's Toiletries Coupons.</span>
+            <span>We extend exclusive discounts to our male clientele</span>
+          </div>
+        </div>
+
+        <div class="right">
+          <a href="#"><i class="fa-regular fa-user"></i> Sign in</a>
+          <a href="favorites.html"
+            ><i class="fa-regular fa-heart"></i> Favorites</a
+          >
+          <a href="#" class="cart-icon">
+            <i class="fa-solid fa-bag-shopping"></i> Cart
+            <span class="cart-badge"></span>
+          </a>
+        </div>
+      </div>
+      <div class="cart">
+        <ul class="item-list"></ul>
+        <div class="total-section">
+          <p>Total</p>
+          <span class="total-price">$ 0</span>
+        </div>
+        <div class="control-scetion">
+          <button class="view-bag">View Bag</button>
+          <button class="check-out">CheckOut</button>
+        </div>
+      </div>
+      <section class="container">
+        <div class="item">
+          <div class="item-img"></div>
+          <div class="item-text">
+            <h2 class="name">TEST</h2>
+            <div class="row-desc">
+              <span class="description">TEST TEST TEST TEST</span>
+              <i class="fa-regular fa-heart heart"></i>
+            </div>
+            <div class="row-rate">
+              <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="reviews">(289)</span>
+            </div>
+            <div class="row-price">
+              <span class="current">$215</span>
+              <span class="original">$228</span>
+              <span class="discount">-10%</span>
+            </div>
+            <button class="add-to-cart">Add To Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>

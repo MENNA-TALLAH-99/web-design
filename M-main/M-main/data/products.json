@@ -1,0 +1,106 @@
+[
+  {
+    "brand": "Mango",
+    "description": "Kimono & Caftan - Black - Casual",
+    "rating": 4,
+    "reviews": 289,
+    "price": {
+      "current": 215,
+      "original": 228,
+      "discount": "-10%"
+    },
+    "isFavorite": false,
+    "color": "#4A90E2"
+  },
+  {
+    "brand": "Uniqlo",
+    "description": "Midi atlas Slim fit - bohemian",
+    "rating": 4,
+    "reviews": 86,
+    "price": {
+      "current": 125,
+      "original": 136,
+      "discount": "-8%"
+    },
+    "isFavorite": true,
+    "color": "#7B61FF"
+  },
+  {
+    "brand": "Zara",
+    "description": "Long Blazer - White - Formal",
+    "rating": 4,
+    "reviews": 212,
+    "price": {
+      "current": 222,
+      "original": 277,
+      "discount": "-20%"
+    },
+    "isFavorite": true,
+    "color": "#FF6F61"
+  },
+  {
+    "brand": "H&M",
+    "description": "Denim Jacket - Blue - Streetwear",
+    "rating": 4,
+    "reviews": 73,
+    "price": {
+      "current": 111,
+      "original": 126,
+      "discount": "-12%"
+    },
+    "isFavorite": true,
+    "color": "#6B5B95"
+  },
+  {
+    "brand": "Bershka",
+    "description": "Cropped Hoodie - Pink - Casual",
+    "rating": 3,
+    "reviews": 162,
+    "price": {
+      "current": 132,
+      "original": 154,
+      "discount": "-14%"
+    },
+    "isFavorite": true,
+    "color": "#88B04B"
+  },
+  {
+    "brand": "Stradivarius",
+    "description": "Floral Dress - Red - Elegant",
+    "rating": 2,
+    "reviews": 113,
+    "price": {
+      "current": 122,
+      "original": 152,
+      "discount": "-20%"
+    },
+    "isFavorite": true,
+    "color": "#F7CAC9"
+  },
+  {
+    "brand": "Pull&Bear",
+    "description": "Graphic T-Shirt - White - Urban",
+    "rating": 3,
+    "reviews": 204,
+    "price": {
+      "current": 119,
+      "original": 125,
+      "discount": "-5%"
+    },
+    "isFavorite": false,
+    "color": "#92A8D1"
+  },
+  {
+    "brand": "Nike",
+    "description": "Running Shorts - Black - Sport",
+    "rating": 5,
+    "reviews": 186,
+    "price": {
+      "current": 211,
+      "original": 237,
+      "discount": "-11%"
+    },
+    "isFavorite": false,
+    "color": "#955251"
+  }
+]
